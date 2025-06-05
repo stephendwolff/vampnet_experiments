@@ -1,0 +1,2 @@
+-e git+https://github.com/hugofloresgarcia/vampnet.git#egg=vampnet
+torchinfo @ git+https://github.com/lancelotblanchard/torchinfo@87dd4eb
