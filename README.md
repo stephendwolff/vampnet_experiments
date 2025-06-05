@@ -41,7 +41,13 @@ See `requirements.txt` for dependencies. Key packages include:
    pip install -r requirements.txt
    ```
 
-3. Run the notebook:
+3. Download pretrained models:
+   - All pretrained models (trained by Hugo) are stored at: https://huggingface.co/hugggof/vampnet
+   - Download the models from this link: https://zenodo.org/record/8136629
+   - Extract the models to the `models/` folder
+   - **Licensing for Pretrained Models**: The weights for the models are licensed CC BY-NC-SA 4.0. Likewise, any VampNet models fine-tuned on the pretrained models are also licensed CC BY-NC-SA 4.0.
+
+4. Run the notebook:
    ```bash
    jupyter notebook vampnet_tutorial.ipynb
    ```
